@@ -1,0 +1,90 @@
+@import url('http://fonts.cdnfonts.com/css/slate-pro-medium');
+
+.section_1 {
+    background-image: url(images/donation8.jpg);
+    background-size: cover;
+    background-color: rebeccapurple;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.section_1_inside {
+    width: 50%;
+    margin-top: 50px;
+    background-color: #00000047;
+    padding: 20px;
+}
+
+.section_1 div h2 {
+    color: #ffff;
+    width: 100%;
+    font-family: 'Slate Pro Light', sans-serif;
+    font-size: 50px;
+}
+
+.section_1 div p {
+    color: #ffff;
+    font-family: 'Slate Pro Light', sans-serif;
+    font-size: 20px;
+}
+
+
+.btn_div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.btn_div a {
+    background-color: #FF5959;
+    text-decoration: none;
+    color: #ffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+/* section --- 2 style start  */
+
+.section_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.section_2 .section_2_inside {
+    width: 80%;
+
+}
+
+.section_2_inside div {
+
+    justify-content: center;
+    width: 50%;
+
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.section_2_inside div h2 {
+    margin-left: 35%;
+    font-family: 'Slate Pro Light', sans-serif;
+
+}
+
+.section_2_inside div p {
+    font-family: 'Slate Pro Light', sans-serif;
+}
+
+.donate {
+    display: flex;
+}
+
+.donate p {
+    width: 90px;
+    background-color: #ddd;
+    margin: 5px;
+    padding: 5px 5px 5px 0px;
+    text-align: center;
+}
