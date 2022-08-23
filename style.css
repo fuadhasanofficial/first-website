@@ -83,8 +83,26 @@
 
 .donate p {
     width: 90px;
+    height: 40px;
     background-color: #ddd;
     margin: 5px;
-    padding: 5px 5px 5px 0px;
+    padding: 20px 0px 0px 0px;
     text-align: center;
+    border-radius: 5px;
+}
+
+.donate p:hover {
+    background-color: #FFEEEE;
+    border: 1px solid #FF5F5F;
+
+}
+
+.input_box input {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    text-align: center;
+    padding: 10px;
 }
