@@ -156,3 +156,35 @@
 .education {
     background-color: #FFF4D6;
 }
+
+
+/* section 4 style */
+
+.section_4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.section_4_inside {
+    width: 80%;
+    display: flex;
+    font-family: 'Slate Pro Light', sans-serif;
+    align-items: center;
+}
+
+.section_4_inside div {
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.section_4_inside div img {
+    width: 100%;
+    float: right;
+    height: 500px;
+}
+
+.section_4_inside h2 {
+    font-size: 50px;
+}
