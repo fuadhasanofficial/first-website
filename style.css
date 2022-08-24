@@ -94,6 +94,7 @@
 .donate p:hover {
     background-color: #FFEEEE;
     border: 1px solid #FF5F5F;
+    color: #FF5F5F;
 
 }
 
@@ -105,4 +106,53 @@
     outline: none;
     text-align: center;
     padding: 10px;
+}
+
+/* section 3 style */
+
+.section_3 {
+    display: flex;
+    justify-content: center;
+}
+
+.section_3_inside {
+    width: 80%;
+
+}
+
+.donate_plan {
+
+    text-align: center;
+    padding: 10px;
+    font-family: 'Slate Pro Light', sans-serif;
+}
+
+.plane_box {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.plane_box div {
+    padding: 15px;
+    margin: 8px;
+    font-family: 'Slate Pro Light', sans-serif;
+    width: 32%;
+}
+
+.plane_box img {
+    width: 100px;
+}
+
+.food {
+
+    background-color: #EDF5F6;
+}
+
+.famaily {
+    background-color: #FFEEEE;
+}
+
+.education {
+    background-color: #FFF4D6;
 }
