@@ -188,3 +188,34 @@
 .section_4_inside h2 {
     font-size: 50px;
 }
+
+
+.section_5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.section_5_inside {
+    width: 80%;
+}
+
+.section_5_inside {
+    display: flex;
+}
+
+.section_5_inside div {
+    width: 50%;
+    padding: 20px;
+    font-family: 'Slate Pro Light', sans-serif;
+
+}
+
+.section_5_inside div h2 {
+
+    font-size: 30px;
+}
+
+.section_5_inside div img {
+    width: 100%;
+}
